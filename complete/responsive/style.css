@@ -73,16 +73,16 @@ header h1 {
 
 nav {
   background-color: #555;
-  overflow: auto;
-}
-
-nav li {
-  float: left;
-  margin: 10px 20px;
+	overflow: auto;
 }
 
 nav a {
   color: #FFF;
+}
+
+nav li {
+	float: left;
+	padding: 15px 10px;
 }
 
 .intro {
@@ -93,14 +93,13 @@ nav a {
 }
 
 .mini-portfolio .work {
-  float: left;
-  /*padding: 20px;*/
-	padding: 1%;
-	width: 31.333333%;
+	float: left;
+	padding: 2%;
+	width: 29.333333%;
 }
 
 .mini-portfolio img {
-	max-width: 100%;
+	width: 100%;
 }
 
 .mini-portfolio h2 {
@@ -114,29 +113,24 @@ nav a {
 
 footer {
   background-color: #111;
-  clear: both;
+	clear: left;
   color: #FFF;
   padding: 20px;
 }
 
-@media screen and (max-width: 750px) {
 
+@media (max-width: 700px) {
 	.mini-portfolio .work {
-		border-top: solid 1px #000;
-	  float: none;
-		padding: 40px 20px;
-		width: auto;
+		border-top: solid 1px black;
+		float: none;
+		padding: 5% 2%;
+		width: 96%;
 	}
-
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 	nav li {
 		float: none;
-		padding: 15px 0px;
-	}
-
-	nav li a {
-		text-decoration: none;
+		padding: 15px 10px;
 	}
 }
